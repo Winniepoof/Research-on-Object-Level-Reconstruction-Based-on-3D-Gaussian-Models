@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Object-Level 3D Gaussian Reconstruction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Helvetica, Arial, sans-serif;
+      margin: 0;
+      background: #ffffff;
+      color: #111;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 24px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
+    }
+    .authors {
+      text-align: center;
+      font-size: 1.05em;
+      color: #555;
+      margin-bottom: 1.5em;
+    }
+    h2 {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .figure {
+      text-align: center;
+      margin: 24px 0;
+    }
+    .caption {
+      font-size: 0.95em;
+      color: #555;
+      margin-top: 8px;
+    }
+    .links a {
+      margin-right: 16px;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Object-Level 3D Gaussian Reconstruction</h1>
+
+<div class="authors">
+  Kid Zhang &nbsp;&nbsp;|&nbsp;&nbsp; Under Review
+</div>
+
+<hr>
+
+<h2>Abstract</h2>
+<p>
+We present an object-level 3D reconstruction framework based on 3D Gaussian
+Splatting. The proposed method reconstructs individual objects from multi-view
+observations by optimizing a compact set of 3D Gaussians.
+By introducing probabilistic object modeling, the method effectively suppresses
+background interference and produces clean object-level representations.
+</p>
+
+<h2>Pipeline</h2>
+<div class="figure">
+  <img src="assets/pipeline.png" alt="Pipeline">
+  <div class="caption">
+    Overview of the object-level 3D Gaussian reconstruction pipeline.
+  </div>
+</div>
+
+<h2>Qualitative Results</h2>
+<div class="figure">
+  <img src="assets/12.png" width="45%">
+  <img src="assets/42.png" width="45%">
+</div>
+<div class="figure">
+  <img src="assets/lingbujian.png" width="45%">
+  <img src="assets/fadongji.png" width="45%">
+</div>
+<div class="caption">
+  Object-level reconstruction results on different objects and scenes.
+</div>
+
+<h2>Video Demo</h2>
+<div class="figure">
+  <video width="100%" controls>
+    <source src="assets/demo.mp4" type="video/mp4">
+  </video>
+</div>
+
+<h2>Links</h2>
+<div class="links">
+  <a href="https://github.com/Winniepoof/Research-on-Object-Level-Reconstruction-Based-on-3D-Gaussian-Models">
+    GitHub Repository
+  </a>
+</div>
+
+<footer>
+  © 2025 Object-Level 3D Gaussian Reconstruction
+</footer>
+
+</div>
+</body>
+</html>
