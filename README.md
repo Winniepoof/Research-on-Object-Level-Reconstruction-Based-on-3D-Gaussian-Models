@@ -45,7 +45,8 @@ The overall reconstruction pipeline is illustrated below.
 <!-- ![result2](assets/result2.png) -->
 
 ### Video Demo
-[![Video Demo](assets/video_teaser.png)](https://youtu.be/XXXXXXX)
+<!-- [![Video Demo](assets/video_teaser.png)](https://youtu.be/XXXXXXX) -->
+[![Video Demo](assets/lingbujian.mp4)]
 
 ---
 
@@ -60,9 +61,9 @@ The code will be released after paper acceptance.
 If you find this work useful, please consider citing:
 
 ```bibtex
-@article{xxx2025objectgs,
+<!-- @article{xxx2025objectgs,
   title={Object-Level 3D Gaussian Reconstruction with Probabilistic Modeling},
   author={Zhang, Kid and others},
   journal={Under Review},
   year={2025}
-}
+} -->
