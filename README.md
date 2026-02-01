@@ -27,7 +27,6 @@ The overall reconstruction pipeline is illustrated below.
 ## 🎥 Visual Results
 
 ### Reconstruction Results
-### Reconstruction Results
 
 <p align="center">
   <img src="assets/12.png" width="45%" />
