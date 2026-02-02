@@ -20,7 +20,7 @@ robust separation between foreground objects and background regions.
 
 The overall reconstruction pipeline is illustrated below.
 
-![pipeline](assets/pipeline.png)
+![pipeline](assets/pipeline888.png)
 
 ---
 
